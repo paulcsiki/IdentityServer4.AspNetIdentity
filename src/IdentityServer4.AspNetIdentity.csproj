@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageId>IdentityServer4.AspNetIdentity</PackageId>
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;netcoreapp2.2</TargetFrameworks>
     
     <Description>ASP.NET Core Identity Integration for IdentityServer4</Description>
     <Authors>Brock Allen;Dominick Baier</Authors>
@@ -25,8 +25,6 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.1.0" />
-
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta-63127-02" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
